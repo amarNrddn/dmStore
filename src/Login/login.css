@@ -1,0 +1,21 @@
+.continue:after{
+    content: " ";
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    left: 5rem;
+    top: 10px;
+}
+
+.continue::before{
+    content: " ";
+    width: 25px;
+    height: 3px;
+    border-radius: 5px;
+    background-color: white;
+    position: absolute;
+    right: 5rem;
+    top: 10px;
+}
